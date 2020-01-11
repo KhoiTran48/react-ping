@@ -16,7 +16,7 @@ function Layout(props) {
                 <div className="w-1/4 flex justify-end">
                     {
                         !props.loggedIn ? 
-                            <div> 
+                            <div>
                                 <Link
                                     className="m-3 py-1 px-2 bg-purple-700 text-white rounded inline-block"
                                     to="/login"
